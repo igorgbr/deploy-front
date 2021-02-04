@@ -12,9 +12,9 @@ function Register() {
   // Conferir URL e metódo
   const redirect = () => {
     if (checkbox) {
-      return window.location.replace('http://localhost:3000/admin/orders');
+      return window.location.replace('https://fogo5000-front.herokuapp.com/admin/orders');
     }
-    return window.location.replace('http://localhost:3000/products');
+    return window.location.replace('https://fogo5000-front.herokuapp.com/products');
   };
 
   // not try

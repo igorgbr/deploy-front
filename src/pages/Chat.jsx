@@ -5,7 +5,7 @@ import TopBar from '../components/ClientBar';
 
 //  import SideBar from '../components/ClientBar.jsx';
 
-const socket = io('http://localhost:3001');
+const socket = io('https://fogo5000-front.herokuapp.com/');
 
 const Chat = () => {
   //  const history = useHistory();

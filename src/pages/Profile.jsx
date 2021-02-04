@@ -13,7 +13,7 @@ const sendEdit = async (e, name, email, history, setMessage) => {
   // ========================== //
 };
 
-const URL = 'http://localhost:3001/profile/2';
+const URL = 'https://fogo5000-front.herokuapp.com/profile/2';
 
 export default () => {
   const [message, setMessage] = useState(null);
